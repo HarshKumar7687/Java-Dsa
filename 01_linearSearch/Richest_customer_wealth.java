@@ -7,10 +7,10 @@ public class Richest_customer_wealth {
     }
     public static int maximumWealth(int[][] accounts) {
         int richest = 0;
-        for(int i=0;i<accounts.length;i++){
+        for(int person=0;person<accounts.length;person++){
             int current_customer = 0;
-            for(int j=0;j<accounts[i].length;j++){
-                current_customer = current_customer + accounts[i][j];
+            for(int account_of_person=0;account_of_person<accounts[person].length;account_of_person++){
+                current_customer = current_customer + accounts[person][account_of_person];
             }
             if(current_customer>richest){
                 richest = current_customer;
