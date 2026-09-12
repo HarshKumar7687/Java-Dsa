@@ -1,3 +1,4 @@
+//leetcode 1920. Build Array from Permutation
 public class BuildArrayFRomPermutation {
     public static int[] buildArray(int[] nums) {
         int[] result = new int[nums.length];
