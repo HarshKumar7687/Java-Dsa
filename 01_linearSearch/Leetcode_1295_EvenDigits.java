@@ -1,6 +1,6 @@
 //leetcode problem 1295
 
-public class EvenDigits {
+public class Leetcode_1295_EvenDigits {
     public static void main(String[] args) {
         int[] arr = {12, 345, 2, 6, 7896};
         System.out.println("Count of numbers with even digits is : " + findNumbers(arr));

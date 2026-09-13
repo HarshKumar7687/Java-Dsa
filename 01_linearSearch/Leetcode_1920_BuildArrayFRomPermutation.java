@@ -1,5 +1,5 @@
 //leetcode 1920. Build Array from Permutation
-public class BuildArrayFRomPermutation {
+public class Leetcode_1920_BuildArrayFRomPermutation {
     public static int[] buildArray(int[] nums) {
         int[] result = new int[nums.length];
         int count = 0;

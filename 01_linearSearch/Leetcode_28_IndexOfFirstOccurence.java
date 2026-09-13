@@ -1,4 +1,4 @@
-public class IndexOfFirstOccurence {
+public class Leetcode_28_IndexOfFirstOccurence {
     public static int strStr(String haystack, String needle) {
         if(needle.length()>haystack.length()) return -1;
         for(int i=0;i<=haystack.length()-needle.length();i++){

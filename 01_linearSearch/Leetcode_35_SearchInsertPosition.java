@@ -1,4 +1,5 @@
-public class SearchInsertPosition {
+//leetcode 35. Search Insert Position
+public class Leetcode_35_SearchInsertPosition {
     public static int searchInsert(int[] nums, int target) {
         if(target>nums[nums.length-1]){
             return nums.length;

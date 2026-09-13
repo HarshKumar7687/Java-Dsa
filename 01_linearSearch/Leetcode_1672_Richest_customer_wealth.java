@@ -1,6 +1,6 @@
 //leetcode problem 1672
 
-public class Richest_customer_wealth {
+public class Leetcode_1672_Richest_customer_wealth {
     public static void main(String[] args) {
         int[][] accounts = {{1,2,3},{3,2,1}};
         System.out.println("Maximum wealth is : " + maximumWealth(accounts));

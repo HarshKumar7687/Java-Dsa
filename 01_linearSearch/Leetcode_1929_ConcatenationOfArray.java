@@ -1,6 +1,6 @@
 //leetcode problem 1929
 
-public class ConcatenationOfArray {
+public class Leetcode_1929_ConcatenationOfArray {
     public static int[] getConcatenation(int[] nums) {
         int count =0;
         int[] result = new int[2*nums.length];

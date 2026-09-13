@@ -1,4 +1,5 @@
-public class ShuffleArray {
+//leetcode 1470. Shuffle the Array
+public class Leetcode_1470_ShuffleArray {
     public static int[] shuffle(int[] nums, int n) {
         int[] result = new int[nums.length];
         int y=0;
