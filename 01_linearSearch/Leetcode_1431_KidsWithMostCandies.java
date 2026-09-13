@@ -1,7 +1,8 @@
+//leetcode 1431. Kids With the Greatest Number of Candies
 import java.util.ArrayList;
 import java.util.List;
 
-public class KidsWithMostCandies {
+public class Leetcode_1431_KidsWithMostCandies {
     public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         List<Boolean> result = new ArrayList<>();
         int max=0;
