@@ -1,4 +1,5 @@
-public class RunningSum {
+//leetcode 1480. Running Sum of 1d Array
+public class Leetcode_1480_RunningSum {
     public static int[] runningSum(int[] nums) {
         int[] result = new int[nums.length];
         int current = 0;
